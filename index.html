@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>baba</h1>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tobias Ehlmé</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Tobias Ehlmé - Fullstack C# Developer</h1>
+            <p>Welcome to my portfolio! Explore my projects below. </p>
+            <a class="contact" onmouseover="showEmail(this)" onmouseout="resetText(this)" onclick="showEmail(this)">Contact me here!</a>
+        </div>
+
+        <div class="about">
+            <img src="me2.png" alt="me :)">
+            <div class="about-text">
+                <p>Hello! I'm a 24-year-old student currently studying software engineering. I’m interning at Liseberg and have experience in:</p>
+                <ul>
+                    <li>.Net Framework</li>
+                    <li>C#</li>
+                    <li>ASP.NET Web API</li>
+                    <li>HTML</li>
+                    <li>Blazor</li>
+                    <li>MongoDB</li>
+                    <li>SQL Server</li>
+                    <li>Redis Cache & Pub/Sub</li>
+                    <li>Azure Service Bus & RabbitMQ</li>
+                    <li>Docker & CI/CD</li>
+                    <li>xUnit & TDD</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project-list">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <!-- Replace # with actual GitHub project URLs and images -->
+                <div class="project">
+                    <a href="https://github.com/tobiasehlme/RefreshJira" target="_blank">
+                      <img src="refreshJira.png" alt="refreshJira Screenshot" >
+                    </a>
+                    <a href="https://github.com/tobiasehlme/RefreshJira" target="_blank">RefreshJira</a>
+                    <p>RefreshJira is a simple consoleApp that refresh and display the ticket queue in Jira</p>
+                </div>
+                <div class="project">
+                  <a href="https://github.com/tobiasehlme/QuickOrder" target="_blank">
+                    <img src="quickOrder.png" alt="quickOrder Screenshot">
+                  </a>
+                    <a href="https://github.com/tobiasehlme/QuickOrder/" target="_blank">QuickOrder</a>
+                    <p>QuickOrder allows users to quickly create an order and send it via email to subcontractors. </p>
+                </div>
+                <div class="project">
+                  <a href="https://github.com/tobiasehlme/PixelPortalen" target="_blank">
+                    <img src="#" alt="PixelPortalen">
+                  </a>
+                  <a href="https://github.com/tobiasehlme/PixelPortalen" target="_blank">PixelPortalen</a>
+                  <p>PixelPortalen is a online store for a fictional local game store. More info on the repo page.</p>
+                </div>
+                <div class="project">
+                    <img src="#" alt="Internship project">
+                    <a href="#" target="">Internship project</a>
+                    <p>Don't know if i can showcase this :|</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2025 Tobias Ehlmé. Based in Sweden - Gothenburg</p>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
 </html>
