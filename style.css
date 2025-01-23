@@ -37,6 +37,15 @@ body {
     box-shadow: 2px 2px 0 green, 4px 4px 0 darkgreen;
 }
 
+.project-about{
+    border: 2px solid green;
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 20px;
+    align-items: center;
+    box-shadow: 2px 2px 0 green, 4px 4px 0 darkgreen;
+}
+
 .about img {
     width: 150px;
     height: 150px;
@@ -110,4 +119,57 @@ body {
     cursor: pointer;
     text-decoration: underline;
     padding: 20px;
+}
+
+.tycoon-font{
+    font-family: 'RCT2', monospace;
+    font-size: 48px !important;
+}
+
+.tycoon-box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid green;
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 2px 2px 0 green, 4px 4px 0 darkgreen;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: 'rct2'; 
+    src: url('fonts/rct2.ttf') format('truetype'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+@media (max-width: 600px) {
+    .tycoon-box {
+        max-height: 200px; 
+    }
+    img {
+        max-height: 200px; 
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .tycoon-box {
+        max-height: 300px; 
+    }
+    img{
+        max-height: 300px; 
+    }
+}
+
+
+@media (min-width: 901px) {
+    .tycoon-box {
+        max-height: 400px; 
+    }
+    img {
+        max-height: 400px; 
+    }
+
 }
